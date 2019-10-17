@@ -15,3 +15,5 @@ const output = document.querySelector("output");
 form.addEventListener("submit", function(event) {
   event.preventDefault();
 
+  output.textContent = calculator["divide"](distance.value, mph.value);
+});
